@@ -1,0 +1,9 @@
+# 1. Download latest ZIP from JetBrains
+curl -L -o ~/Downloads/JetBrainsMono.zip https://download.jetbrains.com/fonts/JetBrainsMono-2.304.zip
+
+# 2. Extract into local fonts folder
+mkdir -p ~/.local/share/fonts/JetBrainsMono
+unzip ~/Downloads/JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
+
+# 3. Rebuild font cache
+fc-cache -fv
