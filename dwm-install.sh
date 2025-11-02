@@ -7,7 +7,7 @@ pkg update
 pkg upgrade
 
 # 5. Install X11 and your window manager:
-pkg install xorg dwm st dmenu
+pkg install xorg dwm st dmenu xclip git tree neovim 
 
 # 6. Disable unnecessary services:
 sysrc ntpd_enable="NO"
