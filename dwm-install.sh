@@ -1,3 +1,4 @@
+#!/usr/bin/env sh
 # Example shell commands (run in Linux or FreeBSD live USB) just to outline:
 # 1. Download FreeBSD-15.0-RELEASE ISO from official mirrors.
 # 2. Create bootable USB and install on test machine / partition.
