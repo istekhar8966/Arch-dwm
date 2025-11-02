@@ -11,8 +11,8 @@ pkg upgrade
 pkg install xorg dwm st dmenu xclip git tree neovim 
 
 # 6. Disable unnecessary services:
-sysrc ntpd_enable="NO"
-sysrc sendmail_enable="NO"
+#sysrc ntpd_enable="NO"
+#sysrc sendmail_enable="NO"
 # etc.
 
 # 7. Configure your user environment (.xinitrc) to start dwm:
