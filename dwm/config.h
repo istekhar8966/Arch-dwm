@@ -165,6 +165,14 @@ static const char *nautiluscmd[] = {
     "nautilus",
     NULL};
 
+static const char *volumeup[] = {
+    "/bin/sh", "-c", "pamixer --increase 5 && pkill -RTMIN+3 dwmblocks", NULL};
+static const char *volumedown[] = {
+    "/bin/sh", "-c", "pamixer --decrease 5 && pkill -RTMIN+3 dwmblocks", NULL};
+static const char *mutevol[] = {
+    "/bin/sh", "-c", "pamixer --toggle-mute && pkill -RTMIN+3 dwmblocks", NULL};
+
+
 static const char *volumeup[] = {"pamixer", "--increase", "5", NULL};
 static const char *volumedown[] = {"pamixer", "--decrease", "5", NULL};
 static const char *mutevol[] = {"pamixer", "--toggle-mute", NULL};
